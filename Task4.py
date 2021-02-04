@@ -4,11 +4,11 @@ if a>0:
     a=str(a)
     l=len(a)
     g=0
+    c=[]
     n=9
-    while g<l-1:
-        if a[g]==n:
-            break
-        else:
-            g+=1
-            n-=1
-    print (a[g])
+    while g<=l-1:
+        c.append(int(a[g]))
+        g+=1
+    while n not in c:
+        n-=1
+    print(n)

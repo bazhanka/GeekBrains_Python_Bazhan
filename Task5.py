@@ -5,7 +5,7 @@ if plus>0 and minus>0:
     result = plus - minus
     if result>0:
         print('Поздравляем, ваша прибыль составила:',result)
-        rentability=float(plus/minus)
+        rentability=float(result/plus)
         print ('Ваша рентабельность:',rentability)
         employees=int(input('Введите количество сотрудников'))
         conversion=float(result/employees)
