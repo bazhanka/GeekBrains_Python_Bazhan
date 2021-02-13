@@ -1,0 +1,5 @@
+Ivanov 20000
+Petrov 13000
+Sidorov 11000
+Kasianov 23000
+Liuberetsky 34000
